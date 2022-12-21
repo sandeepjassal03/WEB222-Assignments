@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Noto+Sans:wght@700&display=swap');
+
+nav {
+  white-space: nowrap;
+  height: 20px;
+  width: 100px;
+  font: normal 240% 'century gothic', arial;
+  position: sticky;
+  left: 73%;
+}
+
+.links {
+  font-size: 25px;
+  margin: 10px;
+  color: rgb(152, 189, 203);
+  text-decoration: none;
+}
+
+.links:hover {
+  color: rgb(196, 79, 79);
+}
+
+.s1 {
+  color: rgb(223, 223, 223);
+  font: normal 60px 'century gothic', arial;
+  position: static;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.main {
+  background-color: #000000;
+  height: 22vh;
+  width: 100%;
+}
+
+.audio {
+  position: relative;
+  top: 100px;
+  left: 25px;
+  height: 45px;
+  width: 400px;
+}
+
+.media {
+  font: normal 18px 'century gothic', arial;
+  color: coral;
+  position: relative;
+  left: 30px;
+  font-weight: normal;
+}
+
+section {
+  height: 1300px;
+  width: 800px;
+  margin: 10px;
+  position: absolute;
+  left: 20%;
+}
+
+h2,
+h3 {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+p,
+li {
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+}
+
+td {
+  text-align: center;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+blockquote p strong {
+  color: rgb(241, 138, 41);
+  font-size: 25px;
+}
+
+blockquote p {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+.content {
+  position: relative;
+  left: 30%;
+  top: 50px;
+  width: 700px;
+  font-family: 'Handlee', cursive;
+}
+footer {
+  height: 12vh;
+  background-color: #000000;
+  width: 100%;
+  position: relative;
+  top: 94px;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+}
